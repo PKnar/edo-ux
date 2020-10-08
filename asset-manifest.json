@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/edo-ux/static/css/main.d7098a0a.chunk.css",
-    "main.js": "/edo-ux/static/js/main.cb16f872.chunk.js",
-    "main.js.map": "/edo-ux/static/js/main.cb16f872.chunk.js.map",
+    "main.js": "/edo-ux/static/js/main.730c2fac.chunk.js",
+    "main.js.map": "/edo-ux/static/js/main.730c2fac.chunk.js.map",
     "runtime-main.js": "/edo-ux/static/js/runtime-main.6ed07316.js",
     "runtime-main.js.map": "/edo-ux/static/js/runtime-main.6ed07316.js.map",
     "static/js/2.12094ec5.chunk.js": "/edo-ux/static/js/2.12094ec5.chunk.js",
     "static/js/2.12094ec5.chunk.js.map": "/edo-ux/static/js/2.12094ec5.chunk.js.map",
     "index.html": "/edo-ux/index.html",
-    "precache-manifest.da8a6573b2272a10080d5fb34d762469.js": "/edo-ux/precache-manifest.da8a6573b2272a10080d5fb34d762469.js",
+    "precache-manifest.02a34067dc3f3ad1687e6d5430b60cb9.js": "/edo-ux/precache-manifest.02a34067dc3f3ad1687e6d5430b60cb9.js",
     "service-worker.js": "/edo-ux/service-worker.js",
     "static/css/main.d7098a0a.chunk.css.map": "/edo-ux/static/css/main.d7098a0a.chunk.css.map",
     "static/js/2.12094ec5.chunk.js.LICENSE.txt": "/edo-ux/static/js/2.12094ec5.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.6ed07316.js",
     "static/js/2.12094ec5.chunk.js",
     "static/css/main.d7098a0a.chunk.css",
-    "static/js/main.cb16f872.chunk.js"
+    "static/js/main.730c2fac.chunk.js"
   ]
 }
