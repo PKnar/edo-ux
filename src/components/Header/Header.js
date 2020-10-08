@@ -41,7 +41,7 @@ const Header = () => {
                         </ul>
 
                     </div>
-
+                    <h3> Knarik, Thomas & Cleo</h3>
                 </main>
 
             </header>
