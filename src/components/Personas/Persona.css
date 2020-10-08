@@ -1,0 +1,106 @@
+.persona-section{
+    display: flex;
+}
+
+.persona-description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+   
+}
+.persona-description li{
+    margin:10px
+}
+
+.info{
+    min-width: 250px;
+    height: 200px;
+    padding:1.5rem 0.5rem;
+    margin-bottom: 20px; 
+   
+}
+
+.info h3{
+    text-transform: uppercase;
+}
+
+.personal{
+    background-color: rgb(13, 77, 13);
+    color: white;
+}
+.personal ul{
+    list-style: none;
+}
+
+
+
+/* HOBIIES */
+.hobbies li{
+    background-color: rgb(46, 70, 50);
+    width:250px;
+    padding: 0.8rem;
+   color:white
+}
+.hobbies ul{
+  list-style: none;
+  text-align: center;
+}
+
+
+
+.persona-section img{
+    height:100vh;
+
+}
+
+.persona-section h3{
+    text-align: center;
+    margin:1.5rem
+}
+
+
+
+.img-content{
+    position: relative;
+    display: flex;
+}
+
+.img-hero{
+    position: absolute;
+    top: 450px;
+    padding: 2rem;
+    color:white
+}
+
+.img-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+.img-hero{
+  background-color: rgb(67, 94, 24);
+}
+
+/*ABOUT */
+.about{
+    width:400px;
+    padding: 0.8rem;
+}
+
+
+.needs,.goals,.frastruations{
+    width:300px;
+    padding: 1.5rem;
+
+}
+
+.goals{
+    background-color: rgb(9, 104, 21);
+    color:white
+}
+
+.preferedway{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,77 @@
+section{
+
+    padding:2rem;
+    color:rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section h1{
+    text-align: center;
+
+}
+
+section p{
+    margin:20px;
+    width:300px;
+    text-align: justify;
+}
+
+
+#idea{
+    background-color: black;
+}
+
+#idea a, #interviews a{
+    background-color: rgb(240, 151, 18);
+    padding:0.7rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin:20px;
+    transition: 0.3s;
+}
+#idea a:hover,#interviews a:hover {
+    background-color: rgb(141, 78, 5);
+    transition: 0.3s;
+ 
+}
+#idea iframe{
+    width:50%;
+    height:50vh
+}
+
+
+/* INTERVIEW */
+.separate{
+    height:300px;
+    background:url(../../images/food.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+#interviews {
+     background-color: rgb(39, 38, 38);
+    
+    width:100%
+}
+
+#interviews img{
+    width: calc(100% / 4);
+    min-width: 250px;
+    box-shadow: 0.5px 0.5px 6px 0.1px;
+    margin:10px;
+    filter: invert();
+}
+
+.int-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+}
