@@ -134,7 +134,7 @@ const Persona = () => {
                 </div>
 
                 <div class='frastruations info'>
-                    <h3>Frastruations</h3>
+                    <h3>Frustrations</h3>
                     <ul>
                         {persona.frastruations.map((fra) => {
                             return (<li>
