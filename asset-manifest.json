@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/edo-ux/static/css/main.c6e7d3d1.chunk.css",
+    "main.js": "/edo-ux/static/js/main.fe1fb8f5.chunk.js",
+    "main.js.map": "/edo-ux/static/js/main.fe1fb8f5.chunk.js.map",
+    "runtime-main.js": "/edo-ux/static/js/runtime-main.6ed07316.js",
+    "runtime-main.js.map": "/edo-ux/static/js/runtime-main.6ed07316.js.map",
+    "static/js/2.12094ec5.chunk.js": "/edo-ux/static/js/2.12094ec5.chunk.js",
+    "static/js/2.12094ec5.chunk.js.map": "/edo-ux/static/js/2.12094ec5.chunk.js.map",
+    "index.html": "/edo-ux/index.html",
+    "precache-manifest.a23cae33833a7fa9d7574d0608848082.js": "/edo-ux/precache-manifest.a23cae33833a7fa9d7574d0608848082.js",
+    "service-worker.js": "/edo-ux/service-worker.js",
+    "static/css/main.c6e7d3d1.chunk.css.map": "/edo-ux/static/css/main.c6e7d3d1.chunk.css.map",
+    "static/js/2.12094ec5.chunk.js.LICENSE.txt": "/edo-ux/static/js/2.12094ec5.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/edo-ux/static/media/1.ff6cb818.png",
+    "static/media/2.png": "/edo-ux/static/media/2.faff047a.png",
+    "static/media/3.png": "/edo-ux/static/media/3.7eeefb54.png",
+    "static/media/4.png": "/edo-ux/static/media/4.832b6a72.png",
+    "static/media/5.png": "/edo-ux/static/media/5.0ba7ff7c.png",
+    "static/media/6.png": "/edo-ux/static/media/6.541b2995.png",
+    "static/media/7.png": "/edo-ux/static/media/7.7ea96020.png",
+    "static/media/Alex.jpg": "/edo-ux/static/media/Alex.6ca723f8.jpg",
+    "static/media/EDO-assignment.pdf": "/edo-ux/static/media/EDO-assignment.d48d9de0.pdf",
+    "static/media/Jill.jpg": "/edo-ux/static/media/Jill.82718d34.jpg",
+    "static/media/Section.css": "/edo-ux/static/media/food.28a2075d.jpg",
+    "static/media/Header.css": "/edo-ux/static/media/pexels-mohamed-abdelgaffar-771742.69a3b3f8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ed07316.js",
+    "static/js/2.12094ec5.chunk.js",
+    "static/css/main.c6e7d3d1.chunk.css",
+    "static/js/main.fe1fb8f5.chunk.js"
+  ]
+}
