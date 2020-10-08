@@ -29,7 +29,7 @@ const Header = () => {
                                 <a href='#idea'>  Initial Idea</a>
                             </li>
                             <li className='circle'>
-                                <a href='#interview'>Interviews</a>
+                                <a href='#interviews'>Interviews</a>
                             </li>
                             <li className='circle hidden-nav'>
                                 <a href='#personas' onClick={handleClick}>Personas</a>
