@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/edo-ux/precache-manifest.1644fe6cb2a85e2b056e9bfed12f35a6.js"
+  "/edo-ux/precache-manifest.da8a6573b2272a10080d5fb34d762469.js"
 );
 
 self.addEventListener('message', (event) => {
