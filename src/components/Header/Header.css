@@ -62,11 +62,11 @@ a{
   .personas-nav{
 
       list-style: none;
-      width:100px;
+      width:150px;
       position: absolute;
       text-align: center;
       padding:1.5rem;
-      animation:slideDown 1.5s forwards;
+      animation:slideDown 1.2s forwards;
 
   }
   .personas-nav li{
@@ -97,7 +97,7 @@ a{
 
 @keyframes slideDown{
     from{
-        top:75px;
+        top:70px;
     }
     to{
         top:90px;

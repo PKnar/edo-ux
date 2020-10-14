@@ -1,54 +1,3 @@
-.persona-section{
-    display: flex;
-}
-
-.persona-description{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-
-   
-}
-.persona-description li{
-    margin:10px
-}
-
-.info{
-    min-width: 250px;
-    height: 200px;
-    padding:1.5rem 0.5rem;
-    margin-bottom: 20px; 
-   
-}
-
-.info h3{
-    text-transform: uppercase;
-}
-
-.personal{
-    background-color: rgb(13, 77, 13);
-    color: white;
-}
-.personal ul{
-    list-style: none;
-}
-
-
-
-/* HOBIIES */
-.hobbies li{
-    background-color: rgb(46, 70, 50);
-    width:250px;
-    padding: 0.8rem;
-   color:white
-}
-.hobbies ul{
-  list-style: none;
-  text-align: center;
-}
-
-
-
 .persona-section img{
     height:100vh;
 
@@ -56,7 +5,7 @@
 
 .persona-section h3{
     text-align: center;
-    margin:1.5rem
+
 }
 
 
@@ -82,6 +31,65 @@
   background-color: rgb(67, 94, 24);
 }
 
+ .persona-section{
+    display: flex;
+    width:100%;
+
+
+} 
+ 
+.persona-description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+
+
+   
+}
+
+.persona-description li{
+    margin:10px
+}
+
+.info{
+    min-width: 250px;
+    padding:1.2rem
+
+  
+   
+}
+
+.info h3{
+    text-transform: uppercase;
+}
+
+.personal{
+    background-color: rgb(13, 77, 13);
+    color: white;
+}
+.personal ul{
+    list-style: none;
+}
+
+
+
+/* HOBIIES */
+ .hobbies li{
+    background-color: rgb(46, 70, 50);
+    width:250px;
+    padding: 0.8rem;
+   color:white
+}
+.hobbies ul{
+  list-style: none;
+  text-align: center;
+}
+
+
+
+
+
 /*ABOUT */
 .about{
     width:400px;
@@ -92,15 +100,40 @@
 .needs,.goals,.frastruations{
     width:300px;
     padding: 1.5rem;
-
 }
 
 .goals{
     background-color: rgb(9, 104, 21);
-    color:white
+    color:white;
+    margin-top: 2rem;
 }
 
 .preferedway{
     display: flex;
     flex-direction: column;
 }
+
+
+@media (max-width:500px){
+    .persona-section img{
+      width:100%
+      
+    }
+
+    .persona-section{
+         flex-direction: column;
+
+    }
+
+    .persona-description{
+        justify-content: center;
+        margin-bottom: 20px;
+    
+    }
+    
+ 
+
+    
+
+  
+} 

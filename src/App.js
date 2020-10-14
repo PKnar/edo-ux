@@ -16,8 +16,11 @@ function App() {
   return (
 
     <div className='App'>
+
       <Header />
+     
       <Section />
+     
       <div className='sep-personas'><h1>Personas</h1></div>
       <Persona />
 

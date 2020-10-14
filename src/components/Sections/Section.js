@@ -14,13 +14,31 @@ import "./Section.css";
 
 const images =[d1,d2,d3,d4,d5,d6,d7]
 
+
 const Section =()=>{
+     
+    const handleClick=(e)=>{
+        let overlay = document.querySelector("#click-scale");
+        overlay.style.display = "block";
+        overlay.childNodes[1].childNodes[0].src = e.target.src;
+
+       
+    }
+
+    let closeWindow=(e)=>{
+        let overlay = document.querySelector("#click-scale");
+        overlay.style.display = "none";
+    
+
+    }
+
    const dataPics = images.map((src)=>{
-        return (<img src={src} />)
+        return (<img src={src} onClick={handleClick} />)
     })
      return(
         <>
         <section id ='idea'>
+     
               <h1>Idea & Survey</h1>
               <p> We started this task with Idea formation and survey creation. We chose our target group and the necessary tool to collect quantitative data. </p>
                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdxZ4Fqi_y9ipGvn_4KnBEn7ighwgVH3BYxTSckWL15xYVPeA/viewform?usp=sf_link' target="_blank"> Link to the survey</a>
@@ -34,8 +52,14 @@ const Section =()=>{
           <div className='int-pics'>
           {dataPics}
           </div>
-          
+          <div id="click-scale"><p onClick={closeWindow}>Close</p>
+            <div className="overlay-img-wrapper">
+            <img src=""></img>
+            </div>
+       
+          </div>
         </section>
+ 
         </>
     )
 }

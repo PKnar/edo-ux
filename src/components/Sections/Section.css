@@ -1,3 +1,4 @@
+
 section{
 
     padding:2rem;
@@ -5,8 +6,61 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
+
+#click-scale{
+    width:100%;
+    background-color: rgba(24, 24, 24, 0.815);
+    position: fixed;
+    z-index: 10000;
+    top:0;
+    left:0;
+    bottom: 0;
+    display: none;
+
+  } 
+
+  #click-scale p{
+      color:white;
+      font-weight: bold;
+      position: absolute;
+      right:0;
+      width:auto;
+      cursor: pointer;
+      z-index: 1000;
+
+
+  }
+
+  #click-scale img{
+    width: 50vw !important;
+    animation:scale 0.5s forwards;
+
+  }
+
+  .overlay-img-wrapper{
+
+      width:100%;
+      height:100vh; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ 
+  }
+
+
+@keyframes scale {
+    from {
+   
+        transform: scale(0.5);
+    }
+    to {
+
+        transform: scale(1);
+    }
+}
 
 section h1{
     text-align: center;
