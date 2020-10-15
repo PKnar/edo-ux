@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cedc40e9320d6d688e0a0176ef9361a6",
+    "revision": "ff52a110a8fdde3a6171947e3fe81ceb",
     "url": "/edo-ux/index.html"
   },
   {
-    "revision": "754cfc3dbb4e5362f26c",
-    "url": "/edo-ux/static/css/main.d7098a0a.chunk.css"
+    "revision": "943a482dc8a9d173c40c",
+    "url": "/edo-ux/static/css/main.ff4b7f8b.chunk.css"
   },
   {
     "revision": "f46e3c5dfa4f1677fda7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/edo-ux/static/js/2.12094ec5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "754cfc3dbb4e5362f26c",
-    "url": "/edo-ux/static/js/main.730c2fac.chunk.js"
+    "revision": "943a482dc8a9d173c40c",
+    "url": "/edo-ux/static/js/main.e2e166f5.chunk.js"
   },
   {
     "revision": "abbfe2eb7a8f922dd066",
