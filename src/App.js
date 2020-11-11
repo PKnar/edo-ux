@@ -24,6 +24,10 @@ function App() {
       <div className='sep-personas'><h1>Personas</h1></div>
       <Persona />
 
+      <footer>
+        <p>&copy; 2020, Knarik Poghosyan</p>
+      </footer>
+
     </div>
       
   
